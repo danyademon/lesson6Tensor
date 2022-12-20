@@ -3,7 +3,7 @@ H = 0
 O = 0
 
 with open('task2input.txt', 'r') as input:
-    C,H,O = input.readlines()
+    C, H, O = input.readlines()
 
 a = []
 a.append(int(C) // 2)

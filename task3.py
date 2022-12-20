@@ -6,6 +6,15 @@ key = 'verylongkey'
 
     
 def cipher_encrypt(_text, _key):
+    """
+    Зашифровывает и расшифровывает полученный текст
+    
+    Параметры:
+    _text -- текст
+    _key -- ключ
+    Возвращает:
+    encripted_str -- преобразованный текс
+    """
     encripted_str = ""
     j = 0
     key_length = len(key)
